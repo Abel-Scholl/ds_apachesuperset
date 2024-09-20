@@ -38,7 +38,6 @@ def create_app(superset_config_module: Optional[str] = None) -> Flask:
 
         app_initializer = app.config.get("APP_INITIALIZER", SupersetAppInitializer)(app)
         app_initializer.init_app()
-
         return app
 
     # Make sure that bootstrap errors ALWAYS get logged

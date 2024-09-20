@@ -192,7 +192,7 @@ SECRET_KEY = '1234'
 
 # The SQLAlchemy connection string.
 SQLALCHEMY_DATABASE_URI = (
-    ##add database here
+    ###
 )
 
 # SQLALCHEMY_DATABASE_URI = 'mysql://myapp@localhost/myapp'
